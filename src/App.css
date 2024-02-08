@@ -1,0 +1,75 @@
+/*general info:
+
+                Colors:
+  Gradient colors:              
+Blues:#97C6FF,#1868C9
+pinkishpurple:#D93D76
+
+  button colors:
+hover effect: #401959
+normal:#6D3E8C
+*/
+
+
+.appContain {
+  width:100%;
+  text-align:center;
+  background: linear-gradient(90deg, rgba(217, 61, 118, 0.5) 20%, rgba(24, 104, 201, 0.7) 58%, rgba(151, 198, 255, 1) 100%);}
+
+.infoContain {
+  padding:20px;
+  font-size:25px;}
+
+.infoContain > p{
+  padding-top:20px;
+  font-size:20px;}
+
+.infoAndScorecontain{ }
+
+.scoreGroup {
+  display:flex;
+  justify-content:space-around;
+  margin-top:10px;
+  padding-bottom:20px;
+  font-size:18px;}
+
+.cardAndQuestionContain {
+  display:flex;
+  justify-content:space-between;
+  margin-top:20px;
+  font-size:20px;}
+
+.cardContain {
+  width:50%;
+  padding-top:20px;}
+
+.card {
+  width:50%; 
+  padding:40px;
+  margin:auto;
+  width: 50%;
+  padding: 40px;
+  margin: auto;
+  border: 4px solid #fff;}
+
+.questionAndBtnContain {
+  width:50%; 
+  padding:20px;}
+
+.question {font-weight:bold;}
+
+.btnContain {margin-top:10px;}
+
+button {
+  background-color:#6D3E8C;
+  color:#FFFFFF;
+  padding:10px 20px;
+  margin:5px;
+  cursor:pointer;
+  border:none;
+  border-radius: 5px;}
+
+button:hover {
+  background-color:#401959;
+  color:#FFFFFF;}
+  
