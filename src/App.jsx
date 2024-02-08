@@ -52,6 +52,7 @@ const App = () => {
   
     return(
     <div className="appContain">
+      <div className="testback">
     <div className="infoAndScorecontain">
       <div className="infoContain">
         <h1>Color Memory Card Game</h1>
@@ -90,7 +91,7 @@ const App = () => {
 
 
     </div>{/*cardAndQuestionContain*/}
-
+    </div>
     {/*app contain*/}
     </div> 
       

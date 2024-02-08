@@ -14,7 +14,16 @@ normal:#6D3E8C
 .appContain {
   width:100%;
   text-align:center;
-  background: linear-gradient(90deg, rgba(217, 61, 118, 0.5) 20%, rgba(24, 104, 201, 0.7) 58%, rgba(151, 198, 255, 1) 100%);}
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background:linear-gradient(90deg, rgba(217, 61, 118, 0.5) 20%, rgba(24, 104, 201, 0.7) 58%, rgba(151, 198, 255, 1) 100%);
+  }
+
+.testback{
+  width: 90%;
+  background-color: #FFFFFF;
+  margin: auto;
+  }
 
 .infoContain {
   padding:20px;
